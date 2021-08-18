@@ -1,0 +1,102 @@
+import Bleed from 'nextra-theme-docs/bleed'
+
+# djs-anime
+
+## Installation
+
+```npm i djs-anime```
+
+## Prerequisites
+
+1. Node.js v16.6.1+
+2. discord.js v13.1.0+
+
+## Available Categories
+
+Category | usage |
+|---|---|
+| Cuddle| gif.cuddle() |
+| Kiss | gif.kiss() | 
+| Hug | gif.hug() | 
+| Bully | gif.bully() | 
+| Poke | gif.poke() | 
+| Kick | gif.kick() |
+| Slap | gif.slap() |
+| Happy | gif.happy() |
+| Kill | gif.kill() |
+| Wink | gif.wink() |
+| Dance | gif.dance() |
+| Cringe | gif.cringe() |
+| Bite | gif.bite() | 
+| Handhold | gif.handhold() |   
+| Wave| gif.wave() |
+| highfive | gif.highfive() |       
+| Smile | gif.smile() |   
+| Blush | gif.blush() | 
+| Yeet | gif.yeet() |
+| Bonk | gif.bonk() |  
+| Smug | gif.smug() | 
+| Pat | gif.pat() |
+| Lick | gif.lick() |
+| Cry | gif.cry() |   
+
+## Normal commands
+
+### Anime Gifs
+```js
+ const { Anime } = require('djs-anime')
+    const gif = new Anime({
+    message: message,
+    embedFooter: "Testing", //The Footer of the embed
+    embedTitle: "Anime Gifs", //The title of the embed
+    embedColor: "RANDOM", //The color of the embed! (Use Hex codes or use the color name)
+    })
+    gif.hug()
+
+```
+
+### Anime quotes
+
+### Random Quote
+```js
+const { Quote } = require('djs-anime')
+const quote = new Quote({
+    message: message,
+    embedTitle: "Anime Quotes", //The title of the embed
+    embedColor: "RANDOM", //The color of the embed! (Use Hex codes or use the color name)
+    })
+    quote.random()
+```
+### Anime Title Quote
+```js
+const { Quote } = require('djs-anime')
+const quote = new Quote({
+    message: message,
+    embedTitle: "Anime Quotes", //The title of the embed
+    embedColor: "RANDOM", //The color of the embed! (Use Hex codes or use the color name)
+    title: "Naruto" //The anime you want the quote from
+    })
+    quote.anime()
+```
+## Slash Commands
+
+### Anime Gifs
+```js
+
+        const { Slash } = require('djs-anime')
+        const slash = new Slash({
+        type: args,
+        interaction: interaction,
+        embedFooter: "Made With djs-anime", //The Footer of the embed
+        embedTitle: `Here's a ${args} GIF`, //The title of the embed
+        embedColor: "RANDOM", //The color of the embed! (Use Hex codes or use the color name)
+        })
+        slash.anime()
+        
+
+```
+
+## Example Bot
+
+[Checkout This Repository for a full example bot.](https://github.com/GizmolabAI/DiscordBot-GL/tree/main/SlashCommands/anime)
+

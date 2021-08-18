@@ -1,0 +1,90 @@
+# djs-misc
+-A discord.js Utils Package with qrcode and other utility commands! Works With Slash and Normal Commands!
+
+
+## Installation
+
+```npm i djs-misc```
+
+## Example usage
+
+```
+USE ACCORDING TO YOUR COMMAND HANDLER
+```
+
+### ROAST
+=== 
+
+*NORMAL COMMAND*
+
+```js
+     const { Misc } = require('djs-misc')
+        const misc = new Misc({
+        message: message,
+        embedFooter: "Made With djs-misc", //The Footer of the embed
+        embedTitle: "Get Roasted", //The title of the embed
+        embedColor: "RANDOM", //The color of the embed! (Use Hex codes or use the color name)
+        })
+        misc.roast()
+```
+
+=== 
+
+*SLASH COMMAND*
+
+
+```js
+ const { Slash } = require('djs-misc')
+        const slash = new Slash({
+        args: args,
+        slashCommand: true,
+        interaction: interaction,
+        embedFooter: "Made With djs-misc", //The Footer of the embed
+        embedTitle: "Get Roasted!", //The title of the embed
+        embedColor: "RANDOM", //The color of the embed! (Use Hex codes or use the color name)
+        })
+        slash.roast()
+```
+
+### DAD JOKE
+===
+
+```js
+     const { Misc } = require('djs-misc')
+        const misc = new Misc({
+        message: message,
+        embedFooter: "Made With djs-misc", //The Footer of the embed
+        embedTitle: "Here's a Dad Joke", //The title of the embed
+        embedColor: "RANDOM", //The color of the embed! (Use Hex codes or use the color name)
+        })
+        misc.dadJoke()
+```
+
+=== 
+
+*SLASH COMMAND*
+
+
+```js
+ const { Slash } = require('djs-misc')
+        const slash = new Slash({
+        args: args,
+        slashCommand: true,
+        interaction: interaction,
+        embedFooter: "Made With djs-misc", //The Footer of the embed
+        embedTitle: "Here's a Dad Joke", //The title of the embed
+        embedColor: "RANDOM", //The color of the embed! (Use Hex codes or use the color name)
+        })
+        slash.dadJoke()
+```
+
+
+## Example Bot
+
+[Checkout This Repository for a full example bot.](https://github.com/GizmolabAI/DiscordBot-GL/)
+
+
+
+
+
+
