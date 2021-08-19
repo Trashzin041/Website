@@ -17,13 +17,13 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="Nextra: the Next.js site builder" />
-      <meta name="og:description" content="Nextra: the Next.js site builder" />
+      <meta name="description" content="Gizmolab Docs: Chatbots and Web Apps" />
+      <meta name="og:description" content="Gizmolab Docs: Chatbots and Web Apps" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content="gizmolab-logo.png" />
-      <meta name="twitter:site:domain" content="nextra.vercel.app" />
-      <meta name="twitter:url" content="https://nextra.vercel.app" />
-      <meta name="og:title" content="Nextra: Next.js static site generator" />
+      <meta name="twitter:site:domain" content="https://gizmolab.xyz" />
+      <meta name="twitter:url" content="https://gizmolab.xyz" />
+      <meta name="og:title" content="Gizmolab" />
       <meta name="og:image" content="gizmolab-logo.png" />
       <meta name="apple-mobile-web-app-title" content="Nextra" />
       <link
