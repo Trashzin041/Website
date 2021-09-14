@@ -26,6 +26,7 @@ export default {
       <meta name="og:title" content="Gizmolab" />
       <meta name="og:image" content="gizmolab-logo.png" />
       <meta name="apple-mobile-web-app-title" content="Nextra" />
+      <script async src="https://arc.io/widget.min.js#BdZRG1XA"></script>
       <link
         rel="apple-touch-icon"
         sizes="180x180"
