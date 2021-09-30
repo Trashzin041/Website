@@ -4,8 +4,8 @@ export default {
   titleSuffix: ' – Gizmolab',
   logo: (
     <>
-      
-      <span className="mr-2 font-extrabold hidden md:inline">Gizmolab</span>
+
+      <img src="https://cdn.discordapp.com/attachments/851000698740277330/892790096028368916/gizmolab-logo.png" alt="Gizmolab" style={{ width: 50 }} />
       <span className="text-gray-600 font-normal hidden md:inline">
         Gizmolab Docs
       </span>
@@ -66,5 +66,10 @@ export default {
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
   footerText: <>MIT {new Date().getFullYear()} © Gizmolab.</>,
-  unstable_faviconGlyph: '👋',
+  unstable_faviconGlyph: "📑",
+  i18n: [
+    { locale: 'en', text: 'English' },
+    { locale: 'vn', text: 'Vietnamese' },
+
+  ]
 }
