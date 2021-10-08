@@ -85,9 +85,12 @@ game.start()
 ## Tic Tac Toe
 
 ```js
+const opponent = message.mentions.users.first();
+        if (!opponent) return message.channel.send(`Please mention who you want to challenge at tictactoe.`);
 const { TicTacToe } = require('djs-games')
 const game = new TicTacToe({
   message: message,
+  opponent: opponent,
   xEmote: '❌', // The Emote for X
   oEmote: '0️⃣', // The Emote for O
   xColor: 'PRIMARY',
