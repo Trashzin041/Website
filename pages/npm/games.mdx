@@ -91,8 +91,8 @@ const { TicTacToe } = require('djs-games')
 const game = new TicTacToe({
   message: message,
   opponent: opponent,
-  xEmote: '❌', // The Emote for X
-  oEmote: '0️⃣', // The Emote for O
+  xEmoji: '❌', // The Emote for X
+  oEmoji: '0️⃣', // The Emote for O
   xColor: 'PRIMARY',
   oColor: 'PRIMARY', // The Color for O
   embedDescription: 'Tic Tac Toe', // The Description of the embed
@@ -121,17 +121,17 @@ game.start()
 ## Snake
 
 ```js
-const { Snake } = require('djs-games')
-const game = new Snake({
+const { SnakeGame } = require('djs-games')
+const game = new SnakeGame({
   message: message,
   buttons: true, // If you want to use buttons || False if you want to use reactions
   snake: '🟩',
   apple: '🍎',
   embedColor: 'RANDOM',
-  leftButton: '◀',
-  rightButton: '▶',
-  upButton: '▲',
-  downButton: '▼',
+  leftButton: '⬅',
+  rightButton: '➡',
+  upButton: '⬆',
+  downButton: '⬇',
 })
 game.start()
 ```
@@ -171,8 +171,8 @@ game.start()
 ## Hangman
 
 ```js
-const { Hangman } = require('djs-games')
-const game = new Hangman({
+const { HangMan } = require('djs-games')
+const game = new HangMan({
   message: message,
   theme: 'coding', // 'sport', 'coding', 'nature', 'popular game', 'phone brand', 'color', 'camping', 'music instrument'
   hangManHat: '🎓',
