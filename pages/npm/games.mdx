@@ -184,6 +184,22 @@ const game = new HangMan({
 game.start()
 ```
 
+
+## FindEmoji
+
+```js
+const { FindEmoji } = require("../../djs-games");
+const game = new FindEmoji({
+  message: message,
+  winMessage: "Congrats You Won The Game!",
+  loseMessage: "Ops That's Not it",
+  timeOutMessage: "Game Timed Out! You Lost"
+  timeoutTime: 60000 // In Milliseconds
+  })
+game.start();
+
+```
+
 ## Example Bot
 
 [Checkout This Repository for a full example bot.](https://github.com/GizmolabAI/DiscordBot-GL/)
